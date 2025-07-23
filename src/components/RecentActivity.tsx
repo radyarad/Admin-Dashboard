@@ -19,7 +19,7 @@ export function RecentActivity() {
                 <span className="font-medium">{activity.user}</span>{" "}
                 {activity.type === "read" ? "membaca" : "menambahkan"}{" "}
                 <span className="font-semibold text-foreground">
-                  "{activity.title}"
+                  &quot;{activity.title}&quot;
                 </span>
               </p>
               <span className="text-xs text-muted-foreground whitespace-nowrap">
