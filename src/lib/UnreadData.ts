@@ -2,5 +2,5 @@
 import members from "./DataTableData";
 
 export const unreadMembers = members.filter(
-  (member) => member.name === "Ola" || member.name === "putra"
+  (member) => member.name === "Ola" || member.name === "Putra"
 );

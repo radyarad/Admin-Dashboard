@@ -111,7 +111,7 @@ export default function AppSidebar() {
                     </Link>
                   </SidebarMenuButton>
                   {item.title === "Announcement" && (
-                    <SidebarMenuBadge>3</SidebarMenuBadge>
+                    <SidebarMenuBadge>5</SidebarMenuBadge>
                   )}
                   {item.title === "Documents" && (
                     <SidebarMenuBadge>3</SidebarMenuBadge>
@@ -124,15 +124,15 @@ export default function AppSidebar() {
         <SidebarGroup>
           <SidebarGroupLabel>Announcement</SidebarGroupLabel>
           <SidebarGroupAction>
-            <Plus /> <span className="sr-only">Add Announcement</span>
+            <Plus /> <span className="sr-only">Group</span>
           </SidebarGroupAction>
           <SidebarGroupContent>
             <SidebarMenu>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild>
-                  <Link href={"/"}>
+                  <Link href={"/Group"}>
                     <Speech />
-                    See all Announcement
+                    Manage Group
                   </Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
@@ -142,7 +142,7 @@ export default function AppSidebar() {
                 <SidebarMenuButton asChild>
                   <Link href={"/"}>
                     <Plus />
-                    Add Announcement
+                    Add Group
                   </Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>
@@ -195,8 +195,12 @@ export default function AppSidebar() {
                 </SidebarMenuButton>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end">
-                <DropdownMenuItem>Settings</DropdownMenuItem>
-                <DropdownMenuItem>Account</DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link href={"/Settings"}>Settings</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link href={"/Profile"}>Account</Link>
+                </DropdownMenuItem>
                 <DropdownMenuItem>Exit</DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
