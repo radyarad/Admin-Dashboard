@@ -122,7 +122,7 @@ export default function AppSidebar() {
           </SidebarGroupContent>
         </SidebarGroup>
         <SidebarGroup>
-          <SidebarGroupLabel>Announcement</SidebarGroupLabel>
+          <SidebarGroupLabel>Group</SidebarGroupLabel>
           <SidebarGroupAction>
             <Plus /> <span className="sr-only">Group</span>
           </SidebarGroupAction>
