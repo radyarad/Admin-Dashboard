@@ -57,8 +57,10 @@ const Navbar = () => {
             <DropdownMenuLabel>Settings</DropdownMenuLabel>
             <DropdownMenuSeparator />
             <DropdownMenuItem className="cursor-pointer">
-              <Settings className="h-[1.2rem] w-[1.2rem] mr-2" />
-              General
+              <Link href={"/Settings"} className="flex items-center">
+                <Settings className="h-[1.2rem] w-[1.2rem] mr-2" />
+                General
+              </Link>
             </DropdownMenuItem>
             <DropdownMenuItem className="cursor-pointer">
               <Scroll className="h-[1.2rem] w-[1.2rem] mr-2" />

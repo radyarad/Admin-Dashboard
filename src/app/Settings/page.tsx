@@ -36,12 +36,12 @@ export default function SettingsPage() {
             <CommandList>
               <CommandGroup heading="Admin">
                 <CommandItem>
-                  <User className="mr-2" />
-                  My Profile
-                </CommandItem>
-                <CommandItem>
                   <House className="mr-2" />
                   General
+                </CommandItem>
+                <CommandItem>
+                  <User className="mr-2" />
+                  My Profile
                 </CommandItem>
                 <CommandItem>
                   <Lock className="mr-2" />
@@ -110,7 +110,7 @@ export default function SettingsPage() {
             <div className="flex flex-col">
               <h4 className="text-md font-bold">Two-factor authentication</h4>
               <p className="text-sm">
-                jaga keamanan akun Anda dengan mengaktifkan 2FA melalui SMS atau
+                jaga keamanan akun anda dengan mengaktifkan 2FA melalui SMS atau
                 menggunakan OTP
               </p>
             </div>
